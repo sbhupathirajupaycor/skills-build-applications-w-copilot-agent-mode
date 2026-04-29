@@ -1,0 +1,81 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9f9f9 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%) !important;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2rem 2.5rem;
+  margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #0056b3;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+  color: #ffd700;
+}
+
+a, .App-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Custom card style for future use */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: none;
+}
+
+/* Modal styling for future use */
+.modal-content {
+  border-radius: 12px;
+}
